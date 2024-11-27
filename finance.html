@@ -44,6 +44,23 @@
       justify-content: space-between;
       align-items: center;
     }
+    .search-bar {
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 5px 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input {
+      border: none;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .search-bar input::placeholder {
+      color: #676767;
+    }
 
     nav {
       display: flex;
@@ -53,6 +70,7 @@
     nav a {
       text-decoration: none;
       color: #333;
+      font-weight: bold;
     }
 
     nav a:hover {
@@ -243,6 +261,9 @@
       <a href="finance.html">금융</a>
       <a href="media.html">미디어</a>
   </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="검색">
+</div>
 </header>
 
 <!-- 할부 및 리스 섹션 -->
