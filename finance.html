@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>할부 및 리스</title>
   <style>
-    body {
+     body {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   height: 100vh; /* 화면 전체를 사용 */
 }
-/* 상단 네비게이션 바 */
-.top-bar {
+    .top-bar {
       background-color: #fff; /* 상단 바 배경 흰색 */
       padding: 5px 20px;
       font-size: 0.9em;
@@ -36,14 +35,16 @@
       font-weight: bold;
       color: #333;
     }
+
+    /* 메인 헤더 */
     header {
       background-color: #fff;
-      border-bottom: 1px solid #ddd;
       padding: 10px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
+
     .search-bar {
       border: 1px solid #ddd;
       border-radius: 20px;
@@ -231,8 +232,7 @@
       margin-bottom: 10px;
     }
 
-      /* 푸터 */
-      footer {
+    footer {
   background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
@@ -243,23 +243,26 @@
   box-sizing: border-box;
   margin-top: auto; /* footer가 항상 맨 아래에 위치하도록 설정 */
 }
+
   </style>
 </head>
 
 <body>
   <div class="top-bar">
-    <a href="logout.html">로그아웃</a>
+    <a href="login.html">로그인</a>
+    <a href="signup.html">회원가입</a>
     <a href="mypage.html">마이페이지</a>
   </div>
 <!-- 헤더 -->
 <header>
-  <div class="logo"><a href="index1.html" style="text-decoration: none; color: inherit;">UCAR</a></div>
+  <div class="logo">UCAR</div>
   <nav>
     <a href="gucsan.html">내차팔기</a>
-      <a href="buycar.html">내차사기</a>
-      <a href="rentcar.html">렌트</a>
-      <a href="finance.html">금융</a>
-      <a href="media.html">미디어</a>
+    <a href="buycar.html">내차사기</a>
+    <a href="lentcar.html">렌트</a>
+    <a href="finance.html">금융</a>
+    <a href="media.html">미디어</a>
+
   </nav>
   <div class="search-bar">
     <input type="text" placeholder="검색">
@@ -339,15 +342,14 @@
     }
   }
 </script>
-
-  <!-- 푸터 -->
-  <footer>
-    <div>CUSTOMER CENTER: TEL 000-0000-0000</div>
-    <div>BANK ACCOUNT: 0000000000</div>
-    <div>RETURN/EXCHANGE: 서울특별시 강남구 테헤란로 000</div>
-    <div>유카 (UCAR) TEL. 000 0000 0000 OWNER. NNN</div>
-    <div>COPYRIGHT © 유카 주식회사. ALL RIGHTS RESERVED.</div>
+<footer>
+  <div>CUSTOMER CENTER: TEL 000-0000-0000</div>
+  <div>BANK ACCOUNT: 0000000000</div>
+  <div>RETURN/EXCHANGE: 서울특별시 강남구 테헤란로 000</div>
+  <div>유카 (UCAR) TEL. 000 0000 0000 OWNER. NNN</div>
+  <div>COPYRIGHT © 유카 주식회사. ALL RIGHTS RESERVED.</div>
 </footer>
 
 </body>
+
 </html>
